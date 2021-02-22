@@ -1,0 +1,8 @@
+header{
+    background-color: #D4838F;
+    height: 50px;
+    width: 100%;
+    grid-area: "header";
+    grid-column: 1/3;
+}
+
