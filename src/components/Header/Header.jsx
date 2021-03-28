@@ -5,30 +5,28 @@ import { BrowserRouter as Router, Link} from 'react-router-dom';
 class Header extends Component{
     render(){
         return(
-            <header>
+            <header className="header">
                 <nav>
-                    <Router>
-                    <Link to="/drinks">
-                    <a className="options">Drinks</a>
+                    <Link to="drinks">
+                    Drinks
                     </Link>
 
-                    <Link to ="/about">
-                    <a className="options">Sobre nós</a>
+                    <Link to ="about">
+                    Sobre nós
                     </Link>
 
-                    <Link to ="/">
-                    <a className="logo"> Bons Drinks</a>
+                    <Link to ="/" class="logo">
+                    Bons Drinks
                     </Link>
 
                     <Link to = "team">
-                    <a className="options">Nosso time</a>
+                    Nossa Equipe
                     </Link>
 
-                    <Link to = "contact">
-                    <a className="options">Contato</a> 
+                    <Link to="contact">
+                    Contato
                     </Link>
 
-                    </Router>  
                 </nav>
                                     
             </header>
