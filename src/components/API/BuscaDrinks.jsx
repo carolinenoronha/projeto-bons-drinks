@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../API/api.css';
+import '../API/api.css';
 import Button from '../Button/Button';
 import {requisicao} from '../../model/arquivoFetch';
 import {useState, useEffect} from 'react';
@@ -22,11 +22,11 @@ const [dadosApi, setDadosApi] = useState("")
                     <h1>Drinks</h1>
                 </div>
                 <div className="posicionaBotao">
-                <Button titulo = "Drinks Populares" estilo = "botao"></Button>
-                <Button titulo = "Buscar Drinks" estilo = "botao" noClick= "BuscarDrinks()"></Button>
+                <Button  titulo = "Drinks Populares" estilo = "botao"/>
+                <Button titulo = "Buscar Drinks" estilo = "botao" noClick= "BuscarDrinks()"/>
                 </div>
             </section>
-            <section className = "conteudoDrunk">
+            <section className = "conteudoDrink">
                {arrMap.map(
                    (valor, index)=>{
                        <h1>

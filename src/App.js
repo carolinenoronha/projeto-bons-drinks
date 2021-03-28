@@ -21,6 +21,10 @@ function App() {
             <Home className="content"/>
           </Route>
 
+          <Route path="/drinks">
+            <BuscarDrinks/>
+          </Route>
+
           <Route path="/contact">
             <Contact/>
           </Route>
