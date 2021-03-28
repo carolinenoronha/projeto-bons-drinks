@@ -2,4 +2,4 @@
 
 Projeto de criação de página utilizando React.js
 
-Mais informações em breve
+Para rodar o projeto em sua máquina, execute o comando *npm install* no terminal do seu editor de código para instalar as dependências necessárias e em seguida, digite o comando *npm start*.
