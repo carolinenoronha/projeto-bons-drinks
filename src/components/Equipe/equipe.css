@@ -37,34 +37,34 @@
     width: 200px;
 }
 
-.fotopessoa1 {
+.foto1 {
     grid-area: fotopessoa1;
 }
 
-.pessoa1 {
+.integrante1 {
     grid-area: pessoa1;
 }
 
-.fotopessoa2 {
+.foto2 {
     grid-area: fotopessoa2;
 }
 
-.pessoa2 {
+.integrante2 {
     grid-area: pessoa2;
 }
 
-.fotopessoa3 {
+.foto3 {
     grid-area: fotopessoa3;
 }
 
-.pessoa3 {
+.integrante3 {
     grid-area: pessoa3;
 }
 
-.fotopessoa4 {
+.foto4 {
     grid-area: fotopessoa4;
 }
 
-.pessoa4 {
+.integrante4 {
     grid-area: pessoa4;
 }
