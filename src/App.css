@@ -1,13 +1,9 @@
 .container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 10vh 80vh 10vh; 
-  grid-template-areas: "header header" "imagem forms" "footer footer";
-  height: auto;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-rows: 15vh 70vh 15vh;
 }
 
-.imgContato{
-  grid-area: "imagem";
-  grid-column: 2/3;
-  justify-content: center;
+.content{
+  grid-area: content;
 }

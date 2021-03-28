@@ -1,19 +1,19 @@
-import './App.css';
+
 import Header from './components/Header/Header';
-import FormularioContato from './components/FormularioContato/FormularioContato'
+import Home from './components/Home/Home'
 import Footer from './components/Footer/Footer';
-import imagemcontato from './Imagens/imgcontato.jpg'
+import { BrowserRouter as Router} from 'react-router-dom';
+import Api from '../src/components/API/BuscaDrinks'
 
 function App() {
   return (
     <div className="container">
+        <Router>
         <Header></Header>
-        <FormularioContato></FormularioContato>
-        <div className="imgContato">
-          <img src={imagemcontato} width="400px" height="300px"></img> 
-        </div>
-
+      {/*   <Home></Home> */}
+        <Api></Api>
         <Footer></Footer>
+        </Router>
     </div>
   );
 }
