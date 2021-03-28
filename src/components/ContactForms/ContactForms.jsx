@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
-import './FormularioContato.css'
+import './ContactForms.css';
+import Button from '../Button/Button'
 
-class FormularioContato extends Component{
+class ContactForm extends Component{
     render(){
         return(
-            <div id="forms">
+            <form id="forms">
+                <label>Nome:</label>
                 <div>
-                    Nome:
                     <input type="text" className="input"></input>
                 </div>
+                <label>Email:</label>
                 <div>
-                    Email:
                     <input type="text" className="input"></input>
                 </div>
+               <label>Mensagem:</label>
                 <div>
-                    Mensagem:
                     <input type="text" className="input"></input>
                 </div>
-
-                <button className="submit">Enviar</button>
-            </div>
+                <Button text="Enviar"/>
+        </form> 
         )
     }
 }
 
-export default FormularioContato;
+export default ContactForm;

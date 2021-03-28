@@ -1,8 +1,28 @@
-header{
-    background-color: #D4838F;
-    height: 50px;
-    width: 100%;
-    grid-area: "header";
-    grid-column: 1/3;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 
+
+header {
+    height: 60px;
+    font-size: 26px;
+    font-weight:bold;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    background: #fffbef;
+    grid-area: "header";
+    font-family: 'Open Sans Condensed' ;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+  }
+
+ nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ } 
+
+
+.logo{
+    font-family: 'Bilbo Swash Caps';
+}

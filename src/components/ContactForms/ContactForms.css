@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+#forms{
+    grid-area: "forms";
+    grid-column: 1/2;
+    margin: 20px;
+    height: auto;
+    width: auto;
+    font-family: 'Yanone Kaffeesatz';
+    margin: 0 auto;
+    display: block;
+} 
+
+.input{
+    width: 300px;
+    height: 25px;
+}
+
