@@ -23,7 +23,7 @@ const [dadosApi, setDadosApi] = useState("")
                 </div>
                 <div className="posicionaBotao">
                 <Button  titulo = "Drinks Populares" estilo = "botao"/>
-                <Button titulo = "Buscar Drinks" estilo = "botao" noClick= "BuscarDrinks()"/>
+                <Button titulo = "Buscar Drinks" estilo = "botao"/>
                 </div>
             </section>
             <section className = "conteudoDrink">

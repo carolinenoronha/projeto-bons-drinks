@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
 .gridApi{
     display: grid;
     grid-template-areas: "cabecalhoArea" 
@@ -40,4 +43,8 @@ justify-content: space-around;
     margin-left: auto;
     cursor: pointer;
     transition: 0.5s ease background-color;
+}
+
+.drinkTitulo{
+    font-family: 'Bilbo Swash Caps';
 }
