@@ -10,7 +10,7 @@ function App() {
     <div className="container">
         <Router>
         <Header></Header>
-      {/*   <Home></Home> */}
+      {/*   <Home className = "content"></Home> */}
         <Api></Api>
         <Footer></Footer>
         </Router>
